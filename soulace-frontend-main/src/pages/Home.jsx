@@ -17,7 +17,7 @@ const Home = () => {
               <span className="highlight"> Without Fear or Stigma</span>
             </h1>
             <p className="hero-subtitle">
-              Break free from judgment. Get the support you need through AI-powered conversations, 
+              Break free from judgment. Get the support you need through AI-powered conversations,
               anonymous communities, and verified mental health professionals.
             </p>
             <div className="hero-buttons">
@@ -183,8 +183,8 @@ const Home = () => {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 Soulace. Founded by Apoorav Kashyap.</p>
-            <p>Contact: <a href="mailto:apooravkashyap8@gmail.com">apooravkashyap8@gmail.com</a></p>
+            <p>&copy; 2024 Soulace. Founded by Vidisha Kashyap.</p>
+            <p>Contact: <a href="mailto:vidishakashyap18@gmail.com">vidishakashyap18@gmail.com</a></p>
           </div>
         </div>
       </footer>
