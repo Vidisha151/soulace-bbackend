@@ -17,7 +17,7 @@ import './App.css'
 
 function App() {
    useEffect(() => {
-    fetch("https://soulace-bbackend-euda.vercel.app/")
+    fetch("https://soulace-bbackend-euda.vercel.app/api")
       .then(res => res.json())
       .then(data => {
         console.log("API DATA:", data);
