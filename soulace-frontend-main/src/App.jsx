@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import Navbar from './components/Navbar'
@@ -16,6 +16,14 @@ import Store from './pages/Store'
 import './App.css'
 
 function App() {
+   useEffect(() => {
+    fetch("https://soulace-bbackend-euda.vercel.app/")
+      .then(res => res.json())
+      .then(data => {
+        console.log("API DATA:", data);
+      })
+      .catch(err => console.error("ERROR:", err));
+  }, []);
   return (
     <AuthProvider>
       <Router>
